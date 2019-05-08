@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "shortcut icon" type = "image/x-icon" a href = "productos/telfengine.png">
+        <link rel = "stylesheet" href = "css/estilo.css" type = "text/css">
+        <title> Tao Store : Telfengine </title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    </head>
+    <body background = "C:/Users/Beep Montalbán/Desktop/minecraft y programas/tao store/foto.jpg">
+        <div class = "menuT">
+            <font color = "white"> Gracias por entrar a la pagina de telfengine </font>
+            <br/>
+            <br/>
+            <font color = "red"><a href = "tienda.html"> Volver a la tienda </a></font>
+        </div>
+        <font color = "blue" size = "20"> Información </font>
+        <br/>
+        <font color = "white"> Telfengine es un programa de creacion de videojuegos, un motor grafico para ser exactos. Ahora mismo lo puedes descargar gratis en <a href = "https://telfengine.webnode.es"><font color = "red">telfengine.webnode.es</font></a>. El motor grafico esta en fase <b>BETA</b> y no puedes crear todavia juegos, tampoco se puede añadir objetos a menos que programes en <font color = "green">TAO SCRIPT</font> o en <font color = "green">TELF SCRIPT (TISTLA SCRIPT)</font>. Puedes descargarlo <font color = "yellow">GRATIS</font> que solo trae las funciones basicas y aprender algunos comandos de <font color = "green">TAO SCRIPT</font> y de <font color = "green"> TELF SCRIPT (TISTLA SCRIPT)</font>. Puedes tambien probar los juegos que haces. </font>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class = "container">
+            <div class = "form_top">
+                <font size = "20" color = "white"> enviar <span> codigo </span></font>
+            </div>
+            <form class = "form_reg" action = "enviar codigo.php" method = "post">
+                <input class = "input" type = "email" placeholder = "email (correo electronico)" name = "email" required>
+                <textarea rows="5" id="mensaje" placeholder = "pon aqui el codigo" name = "mensaje" required></textarea>
+                <br/>
+                <div class = "select" name = "seleccionar">
+                    <font color = "white"> Tipo de comandos: </font><select id="s" name="seleccionar" required><option value = "0" selected = ""> tao script </option><option value="1"> tistla script </option><option value="2"> C# </option><option value="3"> js </option></select>
+                </div>
+                <div class = "btn_form">
+                    <input class = "btn_submit" button type = "submit" value = "Enviar" name = "send" id = "boton">
+                </div>
+            </form>
+        </div>
+            <br/>
+        <div class = "copy">
+            <font color = "white" size = "15"> CopyRight Tao store &copy; 2019 </font>
+        </div>
+    </body>
+</html>
