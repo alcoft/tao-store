@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content = "width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta charset = "utf-8"/>
+        <title> tao store : tienda </title>
+        <link rel = "stylesheet" href = "css/estilo.css">
+        <link rel = "stylesheet" href = "bootstrap/css/bootstrap.css">
+        <script type = "text/javascript" src = "bootstrap/js/bootstrap.js"></script>
+        <link rel = "stylesheet" href = "fontawesome/css/all.css">
+        <script type = "text/javascript" src = "fontawesome/js/all.js"></script>
+        <link rel = "shortcut icon" type = "image/x-icon" a href = "logoDeTao.ico">
+        <script src="js/script.js"></script>
+        <script src="js/jquerry.js"></script>
+    </head>
+    <body>
+        <div class = "header">
+            <font size = "20" color = "green"> Tienda Online </font>
+        </div>
+        <div class = "wrap">
+            <h1> Todos los productos </h1>
+            <div class = "store-wrapper">
+                <div class = "category_list">
+                    <a href = "#" class = "categoryItem" category = "all"> Todos los productos </a>
+                    <a href = "#" class = "categoryItem" category = "games"> Juegos </a>
+                    <a href = "#" class = "categoryItem" category = "programs"> Programas </a>
+                    <a href = "#" class = "categoryItem" category = "programs_games"> Programas y juegos </a>
+                </div>
+                <section class = "products-list">
+                    <div class = "product-item" category = "games">
+                        <img src = "productos/lpt.jpg" alt = "" height = "300" width = "500">
+                        <a href = "lpt.html"> lpt </a>
+                    </div>
+                    <div class = "product-item" category = "games">
+                        <font size = "20" color = "red"> No hay imagen disponible :( </font>
+                        <a href = "the g-t.html"> THE G-T </a>
+                    </div>
+                    <div class = "product-item" category = "programs">
+                        <img src = "productos/telfengine.png" alt =  "" height = "300" width = "500">
+                        <a href = "telfengine.html"> Telfengine </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <h1><font color = "blue">Tienda</font></h1>
+        <a href = "web%20prueva.html"> volver a la pagina anterior </a>
+        <br/>
+        <br/>
+        <br/>
+        <font size = "20"> LPT </font>
+        <br/>
+        <font> lpt es un juego muy bueno que recomiendo que jugueis, su enlace es: <a target = "_blank" href = "https://lpt0.webnode.es"> <font color = "blue"> https://lpt0.webnode.es </font> </a>. Puedes jugar solo, con amigos o online. Tu mision es escapar de la lava y matar a los enemigos (que son otras personas que estan jugando lpt). Si eres el primero en quedar en pie pues ganas un codigo del 90% de descuento en productos de tao. </font>
+        <br/>
+        <img src = "productos/lpt.jpg" width = "500" height = "300">
+        <br/>
+        <font> Precio del juego = 0,00€ (gratis), pulsa <a href = "https://lpt0.webnode.es/descarga"><font color = "blue">aqui</font></a> para descargar </font>
+        <br/>
+        <br/>
+        <font size = "20"> THE G-T </font>
+        <br/>
+        <font> THE G-T es un juego muy chulo, trata de un robot que se despeto a las 3:00 AM y mato a todos. </font>
+        <br/>
+        <br/>
+        <font> Precio = 0,00 (gratis), pulsa <a target = "_blank" href = "https://tao71.webnode.es/the-g-t"><font color = "blue">aqui</font></a> para descargar </font>
+        <br/>
+        <font color = "red" size = "18"> No hay imagen disponible ;( </font>
+        <br/>
+        <font size = "20"> Telfengine </font>
+        <br/>
+        <font> Telfengine es un motor grafico que estamos creando tao. Pero esta en demo y aun no puedes crear juegos ni ningun programa, solo es ver la interfaz del programa </font>
+        <img src = "productos/telfengine.png" width = "500" height = "300">
+        <br/>
+        <font> precio del programa = 0,00€ (edicion personal), 5,00€ (edicion plus(+)), 10,00€ (edicion pro(++)) </font>
+        <br/>
+        <font> Para descargar el programa pulsa <a target = "_blanc" href = "https://telfengine.webnode.es"><font color = "blue"> aqui </font></a> </font>
+        <br/>
+        <font size = "18"><font color = "green"> ALCOFT </font> ha subido un nuevo directo a su canal, pero es creando esta web. </font>
+        <div class = "footer">
+            Copyright Tao Store &copy; 2019
+        </div>
