@@ -1,0 +1,77 @@
+<html>
+<head>
+<title> Tao store </title>
+<link rel = "shortcut icon" type = "image/x-icon" a href = "C:\Users\Beep Montalbán\Desktop\minecraft y programas\tao store\logoDeTao.ico">
+</head>
+<body background = "C:\Users\Beep Montalbán\Desktop\minecraft y programas\tao store\foto.jpg">
+<h1><font color = "blue"><marquee>suscribete a <font color = "red">alcoft<font color = "blue">, <font color = "red">banagamer 05 <font color = "blue">y a <font color = "red">el chico de los likes</marquee></h1>
+<marquee><a target = "_blank" href = "logoDeTao.png"></marquee></a>
+    <h1><marquee><font color = "blue">version <font color = "red">DEMO<font color = "blue"> de la web</font></marquee></h1>
+        <a href = "tienda.html"> ir a la tienda </a>
+<h1><font color = "red"> Registro </h1>
+<embed src = "C:\Users\Beep Montalbán\Desktop\minecraft y programas\tao store\musica.mp3">
+    <embed src = "C:\Users\Beep Montalbán\Desktop\minecraft y programas\tao store\video.mp4">
+<form name = "FormRegistro" action = "mailto: alfonso.sanchez.jimenez9@gmail.com" nethod = "post">
+<table border = "7">
+<tr>
+<td colspan = "2"><font color = "blanc"> Registrarse </td>
+</tr>
+<tr>
+<td><font color = "blanc"> Nombre: </TD>
+<td> <input type = "text" name = "txtNombre" placeholder = "Ponga su nombre" required>
+</td>
+</tr>
+<tr>
+<td><font color = "blanc"> Email: </TD>
+<td> <input type = "text" name = "txtEmail" placeholder = "Ponga su email" required>
+</td>
+</tr>
+<tr>
+<td><font color = "blanc"> Sexo: </td>
+<td> <input type = "radio" name = "OpSexo" value = "n"/ required><font color = "blanc"> masculino </br>
+     <input type = "radio" name = "OpSexo" value = "f"/ required> femenino </br>
+</td>
+</tr>
+<tr>
+<td><font color = "blanc"> Extra: </td>
+<td> <input type = "checkbox" name "Suscribirse" value = "1"/><font color = "blanc"> Suscribirse a alcoft </br>
+     <input type = "checkbox" name "Suscribirse" value = "2"/> Suscribirse a banagamer 05 </br>
+	 <input type = "checkbox" name "Suscribirse" value = "3"/> Suscribirse a el chico de los likes </br>
+	 <input type = "checkbox" name "Suscribirse" value = "4"/> Suscribirse a tao videojuegos y mas </br>
+	 <input type = "checkbox" name "Suscribirse" value = "5"/> Suscribirse a todos los canales anteriores </br>
+</td>
+</tr>
+<tr>
+<td><font color = "blanc"> Descargar: </TD>
+<TD> <input type = "checkbox" name = "Descargar" value = "1"/><font color = blanc> lpt </br>
+     <input type = "checkbox" name = "Descargar" value = "2"/> stp </br>
+     <input type = "checkbox" name = "Descargar" value = "3"/> THE G-T </br>
+</td>
+</tr>
+<tr>
+<td><font color = "blanc"> Opcional: </TD>
+<TD> <input type = "checkbox" name = "Aceptar" value = "1"/><font color = "blanc"> Acepto que me envien ofertas y otras cosas a mi correo </br>
+</td>
+</tr>
+    <tr>
+        <td><font color = "blanc"> Acepta: </TD>
+            <TD>
+                <input type = "checkbox" name = "Acepta" value = "1" required><font color = "blanc"> Acepto que tengo 10 o mas años </br>
+<tr>
+<td colspan = "2">
+<input type = "submit" name "btnRegistrar" value = "Registrar y descargar gratuitamente">
+</td>
+</tr>
+</form>
+<div id="toggleButton" class="toggle-button style-scope paper-toggle-button"><paper-ripple id="ink" recenters="" class="circle toggle-ink style-scope paper-toggle-button">
+    <div id="background" class="style-scope paper-ripple" style="opacity: 0;"></div>
+    <div id="waves" class="style-scope paper-ripple"></div>
+</paper-ripple></div>
+<h2><font color = "green">Informacion sobre tao</h2>
+<h3><font color = "yellow">En tao creamos muchos videojuegos, algunos son gratis y otros son de pago. Puedes jugar alguno de estos en <a target = "_blank" href = "http://tao71.webnode.es"><font color = "yellow">tao71.webnode.es</a>. Tambien puedes crear tus propios juegos utilizando telfengine, ademas es un programa gratis, pero en fase DEMO.</h3>
+<a target = "_blank" href = "http://www.youtube.com/channel/UCLF4R30QwKh03OXQeFmY8JQ"><font color = "red"><b> ir al canal de alcoft </a>
+<a target = "_blank" href = "http://www.youtube.com/channel/UCKHF_ZOTCekLn13VwHrR7Yg"><font color = "blue"><b> ir al canal de banagamer 05 <a>
+<a target = "_blank" href = "http://www.youtube.com/channel/UC9pLNEDtgzJVMD8gNguCypQ/videos"><font color = "green"><b> ir al canal del chico de los likes <a>
+<h2><font color = "green">Registrarse gratis</h2>
+</body>
+</html>
